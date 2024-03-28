@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath> // Necesario para la función pow()
+#include <cmath>
 
 using namespace std;
 
@@ -9,8 +9,11 @@ void imprimirTriangulo(int x);
 void imprimirCirculo(int radio);
 
 int opcion= 0, x=0, y=0, radio= 0;
+char respuesta= 's';
 
-int main() {
+int main(){
+	
+	while(respuesta== 's' || respuesta== 'S'){
     cout<<"Seleccion figura geometrica que desea imprimir:"<<endl;
     cout<<"1. Cuadrado"<<endl;
     cout<<"2. Retangulo"<<endl;
@@ -51,11 +54,14 @@ int main() {
 			imprimirCirculo(radio);
 		break;	
 	}
+	cout<<"Desea imprimir otra figura (s/n): ";
+	cin>> respuesta;
+	}
 
     return 0;
 }
 
-// Función para imprimir un cuadrado con asteriscos
+// Función para imprimir un cuadrado
 void imprimirCuadrado(int x){
 	for(int i= 0; i< x; i++){
 		for(int j= 0; j< x; j++){
@@ -65,6 +71,7 @@ void imprimirCuadrado(int x){
 	}
 }
 
+//Funcion para imprimir un rectangulo
 void imprimirRectangulo(int x, int y){
 	for (int i = 0; i < x; ++i) {
         for (int j = 0; j < y; ++j) {
@@ -100,4 +107,3 @@ void imprimirCirculo(int radio) {
         cout << endl;
     }
 }
-
