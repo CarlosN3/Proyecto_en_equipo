@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 string decToBinary(int n){
     string binario = "";
     
@@ -14,7 +13,7 @@ string decToBinary(int n){
     return binario;
 }
 
-int main() {
+void decimal_binario(){
     int num;
     cout << "Ingrese un número decimal: ";
     cin >> num;
@@ -22,5 +21,4 @@ int main() {
     string binario = decToBinary(num);
     cout << "La representación binaria de " << num << " es " << binario << endl;
 
-    return 0;
 }

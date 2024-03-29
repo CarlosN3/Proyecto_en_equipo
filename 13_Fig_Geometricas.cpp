@@ -11,7 +11,7 @@ void imprimirCirculo(int radio);
 int opcion= 0, x=0, y=0, radio= 0;
 char respuesta= 's';
 
-int main(){
+void fig_geome(){
 	
 	while(respuesta== 's' || respuesta== 'S'){
     cout<<"Seleccion figura geometrica que desea imprimir:"<<endl;
@@ -58,7 +58,6 @@ int main(){
 	cin>> respuesta;
 	}
 
-    return 0;
 }
 
 // Función para imprimir un cuadrado
