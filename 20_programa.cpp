@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
+//comentario prueba
 struct Empleado {
     std::string nombre;
     double salario;
