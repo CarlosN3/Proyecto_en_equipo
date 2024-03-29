@@ -58,10 +58,10 @@ string convertirDecimalEnPalabras(double numero) {
     return resultado;
 }
 
-int main() {
+void enteros_con_decimal_a_letras() {
     double numero;
     cout << "Ingrese un número: ";
     cin >> numero;
     cout << "La representación en palabras de " << numero << " es: " << convertirDecimalEnPalabras(numero) << endl;
-    return 0;
+    
 }

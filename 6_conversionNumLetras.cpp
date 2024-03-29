@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void enteros_a_letras() {
     int x;
 
     cout << "Ingrese un numero: " << endl;
@@ -94,5 +94,5 @@ int main() {
 
     cout << endl;
     cin.ignore();
-    return 0;
+    
 }

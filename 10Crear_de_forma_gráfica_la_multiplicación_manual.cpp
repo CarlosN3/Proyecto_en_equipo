@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+void multiplicación_manual() {
     int num1, num2, resultado = 0;
 
     cout << "Ingrese el primer número: ";
@@ -18,5 +18,5 @@ int main() {
 
     cout << "El producto de " << num1 << " y " << num2 << " es " << resultado << ".";
     
-    return 0;
+    
 }
