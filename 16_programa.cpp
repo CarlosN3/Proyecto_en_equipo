@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main (){
+void hipotenusa(){
 	
 	float catetoa, catetob, hipotenusa, suma;
 	
@@ -22,5 +22,4 @@ int main (){
 
 
 	
-	return 0;
 }
