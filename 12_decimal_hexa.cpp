@@ -5,7 +5,8 @@ using namespace std;
 
 long long decimal;
 char respuesta= 's';
-int main(){
+
+void decimal_hex(){
 	
 	while(respuesta== 'S'|| respuesta== 's'){
 	cout<<"El progrema le permite convertir un numoro escrito de manera Decimal a Hexadecimal"<<endl;	
@@ -18,6 +19,4 @@ int main(){
     cout<<"Desea convertir otro numero (s/n)";
     cin>> respuesta;
 	}
-
-    return 0;
 }

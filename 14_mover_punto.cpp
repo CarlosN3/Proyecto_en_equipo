@@ -12,10 +12,10 @@ void gotoxy (int x1, int y1){
 	SetConsoleCursorPosition(hcon, dwPos);
 }
 
-char opcion; +
+char opcion; 
 int x=10, y=10;
 
-main(){
+void mover_punto(){
 	while(opcion != 'z'){//dejara de funcionar hasta que el usuario presione la tecla 'z'
 		system("cls");
 		gotoxy(x,y); 
@@ -29,7 +29,6 @@ main(){
 		}		
 	}
 	cout<<endl;
-	system("pause");
 }
 	
 

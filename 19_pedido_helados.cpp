@@ -7,7 +7,7 @@ int sabores;
 int cantidad= 0;
 int total= 0;
 float precio;
-int main(){
+void encuesta(){
 	cout<<"***************\n";//cuadro de bienvenida e inforamcion del programa
 	cout<<"* BIENVENIDOS *\n*";
 	cout<<"**************\n\n";
@@ -57,6 +57,4 @@ int main(){
 	}else{
 		cout<< "ingrese corectamente el nombre"<< endl;
 	}
-	system("pause");
-	return 0;
 }
