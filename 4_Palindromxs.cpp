@@ -2,7 +2,7 @@
 #include<string.h>
 using namespace std;
 
-int main(void){
+void palindromx(){
 	int opcion;
 	string palabra, numero, palindroma;
 	int i = 0;
@@ -43,5 +43,4 @@ int main(void){
 			break;
 		}
 	}
-	return 0;
 }

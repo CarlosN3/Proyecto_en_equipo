@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+void numpar_impar(){
 	int numero;
 	cout<<"Determinar si un numero es Par o Impar."<<endl;
 
@@ -15,5 +15,4 @@ int main(){
 		cout<<"El numero es impar.";
 	}
 	
-	return 0;
 }

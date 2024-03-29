@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+void romanos(){
 	int numero, unidades, decenas, centenas, millar;
 	
 	cout<<"Ingresa un numero:";
@@ -50,5 +50,4 @@ int main(){
 		case 8: cout<<"VIII"; break;
 		case 9: cout<<"IX"; break;
 	}
-	return 0;
 }

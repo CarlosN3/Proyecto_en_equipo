@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(void){
+void conversor_long_masas(){
 	int opcion;
 	double kilometros, millas, metros, pulgadas, libras, kilos;
 	
@@ -70,5 +70,4 @@ int main(void){
 			cout<<"---La opción que ingresaste no es valida."<<endl;
 			break;
 	}
-	return 0;
 }

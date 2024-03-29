@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+void opmatematicas(){
 	int n1,n2, suma=0, resta=0, multiplicacion=0, division=0;
 	
 	cout<<"Operaciones Basicas de Matematica."<<endl;
@@ -19,5 +19,4 @@ int main(){
 	cout<<"La multiplicacion de estos dos numeros es:"<<multiplicacion<<endl;
 	cout<<"La division de estos dos numeros es:"<<division<<endl;
 	
-	return 0;
 }
