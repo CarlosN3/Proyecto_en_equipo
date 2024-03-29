@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 using namespace std;
-int main(){
+
+void tablas_de_multiplicar_del_1_al_10(){
 	
 	cout<<"Tablas del 1 al 10. "<<endl;
 	
@@ -14,5 +15,5 @@ int main(){
 		cout<<i<<"x"<<m<<"="<<i * m<<endl;
 		}
 	}
-	system("pause");
+	
 }

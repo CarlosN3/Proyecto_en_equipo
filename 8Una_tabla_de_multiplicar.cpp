@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+void tabla_de_multiplicar(){
 
     int num;
     cout << "Ingresa el número para mostrar la tabla de multiplicar: ";
@@ -13,5 +13,5 @@ int main(){
         cout << num << " x " << i << " = " << num * i << endl;
     }
 
-    return 0;
+    
 }
