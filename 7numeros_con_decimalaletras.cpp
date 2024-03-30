@@ -60,8 +60,8 @@ string convertirDecimalEnPalabras(double numero) {
 
 void enteros_con_decimal_a_letras() {
     double numero;
-    cout << "Ingrese un número: ";
+    cout << "Ingrese un numero: ";
     cin >> numero;
-    cout << "La representación en palabras de " << numero << " es: " << convertirDecimalEnPalabras(numero) << endl;
+    cout << "La representacion en palabras de " << numero << " es: " << convertirDecimalEnPalabras(numero) << endl;
     
 }
