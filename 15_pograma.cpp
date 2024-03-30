@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-main (){
+void cajero_automatico (){
 	int saldo_in =2500, opc;
 	float extra, saldo = saldo_in,retiro;
 	
@@ -37,7 +37,6 @@ main (){
 		
 	}while (opc != 4);
 	
-	cout<<"Gracias por utilizar nuestro cajero!";
+	cout<<"Gracias por utilizar nuestro cajero!"<<endl;
 	
-	return 0;
 }
