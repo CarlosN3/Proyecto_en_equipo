@@ -12,10 +12,9 @@ void gotoxy (int x1, int y1){
 	SetConsoleCursorPosition(hcon, dwPos);
 }
 
-char opcion; 
-int x=10, y=10;
-
 void mover_punto(){
+	char opcion;
+	int x=10, y=10;
 	while(opcion != 'z'){//dejara de funcionar hasta que el usuario presione la tecla 'z'
 		system("cls");
 		gotoxy(x,y); 
