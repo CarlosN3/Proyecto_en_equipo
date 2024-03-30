@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void hipotenusa(){
+void Encuesta(){
 	int n= 0, contadorM= 0, contadorF= 0;
 	char genero;
 	double pesoM, alturaM, pesoF, alturaF, peAcumM= 0, alAcumM= 0, 
