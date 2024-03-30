@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main(){
+void hipotenusa(){
 	int n= 0, contadorM= 0, contadorF= 0;
 	char genero;
 	double pesoM, alturaM, pesoF, alturaF, peAcumM= 0, alAcumM= 0, 
@@ -44,5 +44,4 @@ int main(){
 	promAlF = alAcumF / contadorF;
 	cout<<"El premdio de peso y altura para los hombres encuestados es: "<< promPeM<<" Lb. y "<<promAlM<<" cm."<<endl;
 	cout<<"El premdio de peso y altura para las mujeres encuestadas es: "<< promPeF<<" Lb. y "<<promAlF<<" cm."<<endl;
-	return 0; 
 }

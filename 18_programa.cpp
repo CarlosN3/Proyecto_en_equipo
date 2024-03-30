@@ -18,7 +18,7 @@ void fibonacci(int n) {
     cout << std::endl;
 }
 
-int main() {
+int Calcular_Fibonacci() {
     int limite;
 
     // Solicitar al usuario el límite para la serie de Fibonacci
@@ -28,6 +28,6 @@ int main() {
     // Calcular y mostrar la serie de Fibonacci
     fibonacci(limite);
 
-    return 0;
+
 }
 
