@@ -72,7 +72,7 @@ int option;
                 tablas_de_multiplicar_del_1_al_10();
                 break;   
             case 10:
-                multiplicación_manual();
+                multiplicacion_manual();
                 break;     
             case 21:
                 cout << "Exiting the program. Goodbye!" << endl;

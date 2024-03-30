@@ -17,6 +17,8 @@ void multiplicación_manual() {
     }
 
     cout << "El producto de " << num1 << " y " << num2 << " es " << resultado << ".";
-    
-    
+ 
+
+
 }
+
