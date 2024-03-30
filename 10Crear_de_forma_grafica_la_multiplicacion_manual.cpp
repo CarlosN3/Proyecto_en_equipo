@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void multiplicación_manual() {
+void multiplicacion_manual() {
     int num1, num2, resultado = 0;
 
     cout << "Ingrese el primer número: ";
