@@ -8,7 +8,7 @@
 #include "7numeros_con_decimalaletras.cpp"
 #include "8Una_tabla_de_multiplicar.cpp"
 #include "9Todas_las_tablas_de_multiplicar_del_1_al_10..cpp"
-#include "10Crear_de_forma_gráfica_la_multiplicación_manual.cpp"
+#include "10Crear_de_forma_grafica_la_multiplicacion_manual.cpp"
 using namespace std;
 
 void opmatematicas();
@@ -20,7 +20,7 @@ void enteros_a_letras();
 void enteros_con_decimal_a_letras();
 void tabla_de_multiplicar();
 void tablas_de_multiplicar_del_1_al_10();
-void multiplicación_manual();
+void multiplicacion_manual();
 
 main () {
 
@@ -72,7 +72,7 @@ int option;
                 tablas_de_multiplicar_del_1_al_10();
                 break;   
             case 10:
-                multiplicación_manual();
+                multiplicacion_manual();
                 break;     
             case 21:
                 cout << "Exiting the program. Goodbye!" << endl;
